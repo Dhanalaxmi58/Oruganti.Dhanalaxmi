@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Array {
+    public static void main(String[] args) {
+     ArrayList<Integer>a=new ArrayList<Integer>();
+     a.add(567);
+     a.add(834);
+     a.add(456);
+     a.add(234);
+     System.out.println("ArrayList a:"+a);
+     ArrayList<Integer>a1=new ArrayList<Integer>();
+     a1.add(23);
+     a1.add(45);
+     a1.add(67);
+     System.out.println("ArrayList a1:"+a1);
+     a.addAll(a1);
+     System.out.println("ArrayList a2:"+a);
+     
+    }
+}
